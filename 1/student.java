@@ -23,9 +23,10 @@ class Test{
     Scanner inp = new Scanner(System.in);
     Student student = new Student();
     Boolean value = true;
+    byte i =0;
     while(value){
       System.out.println("Enter Name:");
-      student.name = inp.nextLine();
+      student.name = inp.next();
       System.out.println("Enter Roll:");
       student.roll = inp.nextInt();
       System.out.println("Enter age:");
